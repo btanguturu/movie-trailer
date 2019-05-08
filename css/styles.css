@@ -8,3 +8,10 @@
 h1{
     outline: 1px dotted red;
 }
+
+video{
+  border: 10px solid red;
+  /* Kludge - temporary solution */
+  width: 100%;
+  height: 100%;
+}
