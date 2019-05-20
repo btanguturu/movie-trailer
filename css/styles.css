@@ -26,6 +26,7 @@ h1 {
 }
 
 .plyr__video-embed iframe {
+    margin: 0 auto;
     top: -50%;
     height: 200%;
 }
