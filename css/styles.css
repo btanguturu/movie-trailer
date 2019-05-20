@@ -6,13 +6,22 @@
   *Outline Elements
 */
 
+body {
+    font-family: 'Buda', cursive;
+    background: hsl(3, 90%, 8%);
+    width: 100vw;
+    color: #a2a1a6;
+}
+
 h1 {
     font-family: 'Cinzel Decorative', cursive;
     text-align: center;
+    letter-spacing: 3px;
+    color: #c39865;
 }
 
 .container {
-    margin: 20px auto;
+    margin: 0 auto;
     max-width: 500px;
 }
 
@@ -21,6 +30,59 @@ h1 {
     height: 200%;
 }
 
-body {
-    font-family: 'Buda', cursive;
+h1 span:nth-child(even) {
+    color: #a2a1a6;
+}
+
+h1 span:nth-child(odd) {
+    color: #e8dfd8;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 50px auto;
+}
+
+#right {
+    width: 45%;
+    display: grid;
+    grid-template-columns: auto 1% auto 1% auto;
+    grid-template-rows: auto 1% auto;
+    padding: 20px;
+}
+
+#left {
+    width: 45%;
+}
+
+.a {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.b {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.c {
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+}
+
+.d {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.e {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.f {
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
 }
