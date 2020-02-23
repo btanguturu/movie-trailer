@@ -21,14 +21,20 @@ h1 {
 }
 
 .container {
+    display: flex;
     margin: 0 auto;
-    max-width: 500px;
 }
 
 .plyr__video-embed iframe {
     margin: 0 auto;
     top: -50%;
     height: 200%;
+}
+
+video{
+    width: 40%;
+    padding: 2%;
+    align-items: space-between;
 }
 
 h1 span:nth-child(even) {
@@ -99,4 +105,8 @@ section {
 .f {
     grid-column: 5 / 6;
     grid-row: 4 / 5;
+}
+
+.a img, .b img, .c img, .d img, .e img, .f img{
+    width: 100%;
 }
