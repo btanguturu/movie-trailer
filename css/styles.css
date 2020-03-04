@@ -66,13 +66,10 @@ h1 span:nth-child(odd) {
 
 .cast{
     display: grid;
+    width: 80vw;
+    margin: 50px auto;
     grid-template-columns: auto 5% auto 5% auto;
     grid-template-rows: 1% 5% auto 5% auto;
-}
-
-.title {
-    grid-column: 2 / 4;
-    text-align: center;
 }
 
 .a img, .b img, .c img, .d img, .e img, .f img{
