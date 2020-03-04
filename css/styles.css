@@ -37,12 +37,11 @@ h1 {
 .plyr__video-embed iframe {
     margin: 0 auto;
     top: -50%;
-    height: 200%;
+    width: 100vw;
 }
 
 video{
-    width: 45%;
-    padding: 2%;
+    width: 100vw;
 }
 
 h1 span:nth-child(even) {
@@ -53,15 +52,9 @@ h1 span:nth-child(odd) {
     color: #e8dfd8;
 }
 
-.trailers, .summary{
-    display: flex;
+.summary{
     width: 80vw;
-    justify-content: space-between;
     margin: 50px auto;
-}
-
-#sright, #sleft {
-    width: 45%;
 }
 
 .cast{
