@@ -29,10 +29,23 @@ body::-webkit-scrollbar-thumb {
 
 h1 {
     font-family: 'Cinzel Decorative', cursive;
-    text-align: center;
+    margin-top: -10px;
     letter-spacing: 3px;
-    color: #c39865;
+    color: hsl(3, 90%, 8%);
 }
+
+#links{
+    padding:25px;
+    width: 100vw;
+    background: #c39865;
+  }
+  
+  .links a{
+    padding: 0px 10px;
+    float: left;
+    margin-top: -10px;
+    text-decoration: none;
+  }
 
 .plyr__video-embed iframe {
     margin: 0 auto;
@@ -42,14 +55,6 @@ h1 {
 
 video{
     width: 100vw;
-}
-
-h1 span:nth-child(even) {
-    color: #a2a1a6;
-}
-
-h1 span:nth-child(odd) {
-    color: #e8dfd8;
 }
 
 .summary{
@@ -64,9 +69,10 @@ h1 span:nth-child(odd) {
 
 .buy a{
     text-align: center;
-    padding: 10px;
-    background: #e8dfd8;
-    border: 1px solid #a2a1a6;
+    padding: 10px 15px;
+    margin: 0 auto;
+    background: #a2a1a6;
+    color: hsl(3, 90%, 8%);
 }
 
 .cast{
