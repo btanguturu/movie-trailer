@@ -48,10 +48,10 @@ h1 {
     text-decoration: none;
   }
 
-  .links a:hover{
+.links a:hover{
       font-weight: bold;
       color: slategrey;
-  }
+}
 
 .plyr__video-embed iframe {
     margin: 0 auto;
@@ -78,8 +78,13 @@ video{
     text-align: center;
     padding: 10px 15px;
     margin: 0 auto;
-    background: #a2a1a6;
-    color: hsl(3,2 90%, 8%);
+    background: #c39865;
+    color: white;
+}
+
+.buy a:hover{
+    font-weight: bold;
+    color: slategrey;
 }
 
 .p1, .p2{
