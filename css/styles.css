@@ -38,14 +38,19 @@ h1 {
     padding:25px;
     background: #c39865;
     display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
   
 .links a{
-    padding: 0px 10px;
-    float: left;
-    margin-top: -10px;
+    padding: 10px;
+    font-size: 1.2em;
     text-decoration: none;
-    
+  }
+
+  .links a:hover{
+      font-weight: bold;
+      color: slategrey;
   }
 
 .plyr__video-embed iframe {
