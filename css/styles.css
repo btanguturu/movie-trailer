@@ -60,12 +60,12 @@ video{
 }
 
 .summary{
-    width: 80vw;
-    margin: 50px auto;
+    width: 65vw;
+    margin: 0px auto;
 }
-
 .buy{
     width: 80vw;
+    display: flex;
     margin: 0 auto;
 }
 
@@ -74,7 +74,11 @@ video{
     padding: 10px 15px;
     margin: 0 auto;
     background: #a2a1a6;
-    color: hsl(3, 90%, 8%);
+    color: hsl(3,2 90%, 8%);
+}
+
+.p1, .p2{
+    margin: 2%;
 }
 
 .cast{
