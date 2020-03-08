@@ -11,7 +11,7 @@ body {
     background: hsl(3, 90%, 8%);
     color: #a2a1a6;
     margin: 0 auto;
-    background-image: url("/images/dust.jpg");
+    background-image: url("images\dust.jpg");
     background-blend-mode: multiply;
 }
 
@@ -39,7 +39,7 @@ h1 {
 nav{
     display: flex;
     justify-content: space-between;
-    background-image: url("/images/navbg.jpeg");
+    background-image: url("images\navbg.jpeg");
     background-blend-mode: soft-light;
 }
 
