@@ -39,7 +39,7 @@ h1 {
 nav{
     display: flex;
     justify-content: space-between;
-    background-image: url(images\navbg.jpeg);
+    background: url(images\navbg.jpeg);
     background-blend-mode: soft-light;
 }
 
